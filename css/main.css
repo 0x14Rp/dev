@@ -511,13 +511,14 @@ header{
 	margin-bottom:-20px;
 }
 .expertiesico {
-	padding:70px 63px 70px 0;
+	padding:7px 63px 70px 0;
 	text-align:right;
 	font-family:'Crimson Text',serif;
 	font-size:21px;
 	line-height:24px;
 	color:#5b4c5c;
 	font-style:italic;
+	margin-bottom: 100px;
 }
 .expertiesdesc {
 	border-left:2px solid #ada5ad;
