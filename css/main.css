@@ -66,6 +66,7 @@ h1{
 	font-weight:400;
 	margin:0px;
 	padding-bottom:8px;
+	color: #FF0303;
 }
 h2{
 	font-family: 'Montserrat', sans-serif;
@@ -187,11 +188,11 @@ header{
 	padding:0 ;
 	z-index:999 ;
 }
-.bannerText h1{
+.AsyncWritter h1{
 	text-transform:uppercase;
 	line-height:normal;
 	font-weight:300;
-	color:#fff;
+	color:#FF0303 !important;
 	letter-spacing:4px;
 }
 .bannerText h3{
@@ -1123,3 +1124,70 @@ header{
 		
 	}
 }
+
+
+
+.window2{
+	
+ position: relative;
+	left: 50px;
+	width:290px;
+	height:160px;
+	background-color:#141414;
+	border-radius:8px;
+	margin:0 auto;
+	margin-top:0px;
+}
+.red, .green, .orange{
+	width:10px;
+	height:10px;
+	border-radius:15px;
+	margin-left:10px;
+	margin-top:10px;
+}
+.red{
+	float:left;
+	background-color:red;
+}
+.orange{
+	float:left;
+	background-color:orange;
+}
+.green{
+	float:left;
+	background-color:green;
+}
+.terminal{
+	font-family:Helvetica;
+	color:white;
+	margin:20px;
+	position:absolute;
+}
+
+span{
+	animation-name:blink;
+	animation-duration:1s;
+	animation-iteration-count: infinite;
+}
+@keyframes blink{
+	50%{opacity:0;}
+}
+
+
+        .typed-cursor{
+          opacity: 1;
+          color:white;
+        }
+        .typed-cursor.typed-cursor--blink{
+          animation: typedjsBlink 0.7s infinite;
+          -webkit-animation: typedjsBlink 0.7s infinite;
+                  animation: typedjsBlink 0.7s infinite;
+        }
+        @keyframes typedjsBlink{
+          50% { opacity: 0.0; }
+        }
+        @-webkit-keyframes typedjsBlink{
+          0% { opacity: 1; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1; }
+        }
